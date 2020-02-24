@@ -16,12 +16,12 @@ header {
     border-bottom: 6px solid #323746;
 }
 
-header div {
-  color: #ffffff;
-  font-size: 25px;
-  line-height: 6px;
-  font-weight: 700;
-  margin-top: 10px;
+h1 {
+    color: #ffffff;
+    font-size: 25px;
+    line-height: 6px;
+    font-weight: 500;
+    margin-top: 40px;
 }
 
 header div span {
@@ -29,19 +29,17 @@ header div span {
 }
 
 ul {
-    margin-left: 100px;
+    margin-left: 386px;
     font-size: 12px;
-    line-height: 6px;
-    color: #f06c64;
-    font-family: "Lato";
-    font-weight: 700;
+    line-height: 54px;
+    font-weight: 500;
 }
 
 li {
     list-style-type: none;
     display: flex;
     float: left;
-    margin-left: 20px;
+    margin-left: 0px;
     color: #ffffff;
     margin-top: 10px;
 }
@@ -62,7 +60,7 @@ a {
 }
 
 a:hover {
-  color: #db3e36;
+  color: #f06c64;
 }
 
 /*main*/
@@ -123,9 +121,8 @@ footer {
 }
 
 .main {
-    width:800px;
-    margin-left: 50px;
-    width: 940px;
+    margin-left: 41px;
+    width: 990px;
     height: 57px;
     font-size: 18px;
     line-height: 30px;
@@ -135,21 +132,25 @@ footer {
 }
 
 .main h2 {
+    margin-top: 68px;
     font-size: 30px;
     line-height: 18px;
     color: #666d89;
     font-weight: 900;
+    margin-bottom: 27px;
 }
 
 .secondary {
     float: left;
-    padding-left: 100px;
-    width: 219px;
-    height: 128px;
+    padding: 0 20px;
+    width: 220px;
+    height: 90px;
     font-size: 12px;
     line-height: 22px;
     color: #767e9e;
     font-weight: 400;
+    margin: 0px 30px;
+    margin-bottom: 34px;
 }
 
 .secondary h3 {
@@ -157,40 +158,46 @@ footer {
     line-height: 18px;
     color: #666d89;
     font-weight: 900;
+    margin-bottom: 11px;
+}
+
+.all-secondary {
+    margin-top: 74px;
+    margin-left: 69px;
 }
 
 #pen {
     position: absolute;
-    top: 1000px;
-    left: 50px;
+    top: 914px;
+    left: 40px;
 }
 
 #bulb {
     position: absolute;
-    top: 500px;
-    left: 460px;
+    top: 914px;
+    left: 359px;
 }
 
 #heart {
     position: absolute;
-    top: 500px;
-    left: 520px;
+    top: 914px;
+    left: 679px;
 }
 
 #phone {
     position: absolute;
-    top: 500px;
-    left: 580px;
+    top: 1037px;
+    left: 40px;
 }
 
 #bubble {
     position: absolute;
-    top: 500px;
-    left: 640px;
+    top: 1037px;
+    left: 359px;
 }
 
 #star {
     position: absolute;
-    top: 500px;
-    left: 700px;
+    top: 1037px;
+    left: 679px;
 }
