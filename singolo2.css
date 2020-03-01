@@ -72,19 +72,13 @@ body {
 }
 
 .gallery {
+	margin: 19px 0 50px 0;
 	display: flex;
+	flex-wrap: wrap;
 }
 
 .gallery__item {
-
-}
-
-img {
-	flex: 0 0 20px;
-	background-color: green;
-	object-fit: cover;
-  	width: 220px;
-  	height: 187px;
+	padding: 0 15px 15px 0;
 }
 
 /*about us*/
@@ -96,6 +90,7 @@ img {
 
 .about-us__body {
 	width: 940px;
+	padding: 68px 41px;
 }
 
 .about-us__header {
@@ -131,6 +126,7 @@ img {
 }
 
 .cell__links {
+	display: flex;
 }
 
 .cell__links__link-1 {
