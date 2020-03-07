@@ -17,9 +17,10 @@ body {
 }
 
 .portfolio__body {
-	
-	width: 940px;
+	height: 728px;
+	width: 960px;
 	padding: 68px 41px;
+	overflow: hidden;
 }
 
 .portfolio__header {
@@ -27,7 +28,7 @@ body {
 }
 
 .portfolio__title {
-	margin: 0 0 33px 0;
+	margin: 0 0 28px 0;
 }
 
 .title {
@@ -40,7 +41,7 @@ body {
 }
 
 .portfolio__text {
-	margin-bottom: 19px;
+	margin-bottom: 10px;
 }
 
 .text {
@@ -62,8 +63,8 @@ body {
 
 .menu__item {
 	display: inline-block;
-	padding: 0 2px;
-	margin: 0 8px;
+	padding: 0 6px;
+	margin: 0 8px 0 0;
 	border-radius: 5px;
 	border: 1px solid #666d89;
 }
@@ -72,13 +73,13 @@ body {
 }
 
 .gallery {
-	margin: 19px 0 50px 0;
+	margin: 18px 0 50px 0;
 	display: flex;
 	flex-wrap: wrap;
 }
 
 .gallery__item {
-	padding: 0 15px 15px 0;
+	padding: 0 20px 17px 0;
 }
 
 /*about us*/
@@ -97,20 +98,21 @@ body {
 }
 
 .about-us__title {
-	margin: 0 0 33px 0;
+	margin: 0 0 27px 0;
 }
 
 .about-us__text {
-	margin-bottom: 19px;
+	margin-bottom: 44px;
 }
 
 .about-us__row {
 	display: flex;
-	
+	margin: 0 0 0 -3px;	
 }
 
 .about-us__column {
-	flex: 0 0 33.333%;
+	width: 300px;
+	padding: 0 20px 0 0;
 }
 
 .cell {
@@ -120,23 +122,31 @@ body {
 }
 
 .cell__name {
+	font-size: 18px;
+	line-height: 18px;
+	color: #666d89;
+	font-family: "Lato";
+	font-weight: 900;
+	text-align: left;
+
+	padding: 11px 0;
 }
 
 .cell__text {
+	font-size: 12px;
+	line-height: 22px;
+	color: #767e9e;
+	font-family: "Lato";
+	font-weight: 400;
+	text-align: left;
 }
 
 .cell__links {
 	display: flex;
+
+	padding: 20px 0 0 0;
 }
 
-.cell__links__link-1 {
-}
-
-.cell__links__link-2 {
-}
-
-.cell__links__link-3 {
-}
-
-.cell__links__link-4 {
+.cell__links__link-item {
+	padding: 0 6px 0 0;
 }
